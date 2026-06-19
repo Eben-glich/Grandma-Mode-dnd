@@ -1,0 +1,32 @@
+# Grandma Mode - DND Manager
+# Requirements file for both main application and remote device app
+
+# Core GUI Library (usually pre-installed)
+# tkinter is included with Python 3.x - no pip installation needed
+
+# Image processing for icon generation in remote app
+Pillow>=9.0.0
+
+# Location services for GPS/Network-based location tracking
+geocoder>=1.38.1
+requests>=2.28.0
+
+# Optional: For enhanced geolocation data
+geolite2>=2.12.1
+
+# Optional: For better database querying (if needed)
+# db-sqlite3 is built-in, but this is optional for advanced usage
+# sqlite3 is built-in with Python
+
+# Optional: For future web interface (if implemented)
+# Flask>=2.0.0
+# Flask-CORS>=3.0.10
+
+# Optional: For future data visualization
+# matplotlib>=3.5.0
+# folium>=0.12.0  # For map visualization
+
+# Development dependencies (optional)
+# pytest>=7.0.0  # For testing
+# black>=22.0.0  # Code formatting
+# pylint>=2.0.0  # Code linting
