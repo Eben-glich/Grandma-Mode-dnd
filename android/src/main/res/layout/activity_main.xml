@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grandma Mode DND"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+    
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DND Inactive"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+    
+    <Button
+        android:id="@+id/dnd_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Enable DND"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preset Options:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    
+    <ListView
+        android:id="@+id/preset_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp" />
+    
+    <EditText
+        android:id="@+id/custom_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Custom duration (1-420 minutes)"
+        android:inputType="number"
+        android:padding="12dp" />
+    
+</LinearLayout>
